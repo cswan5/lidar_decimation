@@ -5,9 +5,7 @@ This R code was developed for lidar processing and analysis related to the manus
 
 ### Included files and descriptions
 #### `00_lidar_decimation_functions.R`
-This file contains the base functions used for decimating the lidar and quantifying forest structure metrics. It is called in `02_sensitivity analysis.R` and `03_lidar_decimation_processing.R`. Some of the functions used within this code were pulled from the `leafR` and `lidR` packages (see citations). The figure below shows the formulas for calculating *mlad<sub>ij</sub>*, *mlad<sub>h</sub>*, *cvmlad*, and *mhorcvlad*. 
-
-![[voxel_metrics_explainer.png|"Figure 1. Schematic of vertical and horizontal variation of leaf area density (LAD) within a forested buffer "]]
+This file contains the base functions used for decimating the lidar and quantifying forest structure metrics. It is called in `02_sensitivity analysis.R` and `03_lidar_decimation_processing.R`. Some of the functions used within this code were pulled from the `leafR` and `lidR` packages (see citations). 
 
 #### `01_site_select.R`
 This file contains code to select plots from the lidar data based on point density.
